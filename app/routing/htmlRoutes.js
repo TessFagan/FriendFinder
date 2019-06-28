@@ -9,11 +9,12 @@ module.exports = function (app) {
     // Each of the below routes just handles the HTML page that the user gets sent to.
 
     app.get("/", function (req, res) {
-        res.sendFile(path.join(__dirname, "/Users/TessFagan/projects/HARCAM201902FSF5/activities/15-sequelize/01-Activities/05-SequelizeLibrary/Solved/app/routes/html-routes.js"));
+        console.log("something is happening")
+        res.sendFile(path.join(__dirname, "../public/home.html"));
     });
 
     app.get("/survey", function (req, res) {
-        res.sendFile(path.join(__dirname, "../survey.html"));
+        res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
 
 }
