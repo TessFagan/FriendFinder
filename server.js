@@ -13,8 +13,8 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // Routes
-require("./app/routing/htmlRoutes")
-require("./app/routing/apiRoutes")
+require("./app/routing/htmlRoutes");
+require("./app/routing/apiRoutes");
 
 
 // starting our Express app
