@@ -1,16 +1,16 @@
 var people = [{
     "name": "Ahmed",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo": "https://hackernoon.com/hn-images/1*qZoBA3wFh-82y2N3qQCdpw.jpeg",
     "scores": [
-        5,
         1,
-        4,
-        4,
-        5,
         1,
-        2,
-        5,
-        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
         1
     ]
 }, {
@@ -45,7 +45,7 @@ var people = [{
     ]
 }, {
     "name": "Peter",
-    "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo": "https://i.pinimg.com/236x/c9/9d/c6/c99dc6486eee7fc43ed702f85d1acd9d--programming-humor-memes.jpg?nii=t",
     "scores": [
         1,
         1,
@@ -59,3 +59,7 @@ var people = [{
         5
     ]
 }]
+
+module.exports = {
+    people
+}
